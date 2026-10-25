@@ -1,0 +1,51 @@
+{
+  "mcpServers": {
+    "pierre-de-fermat-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "TITAN_PROTOCOL": "FERMAT",
+        "TARGET_CHAIN": "Solana",
+        "FIPS_203_LEVEL": "ML-KEM-768",
+        "FIPS_204_LEVEL": "ML-DSA-65"
+      },
+      "tools": [
+        {
+          "name": "optimize_fermat_least_time_path",
+          "description": "Solves variational calculus path minimizing travel time of light in graded index media",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "media_profile": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "media_profile"
+            ]
+          }
+        },
+        {
+          "name": "verify_fermat_little_theorem_primality",
+          "description": "Executes modular exponentiation a^(p-1) == 1 mod p for cryptographic primality checks",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "candidate_p": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "candidate_p"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
