@@ -1,0 +1,14 @@
+{
+  "project": "pierre-de-fermat-ai",
+  "network": "Solana Devnet",
+  "cluster_url": "https://api.devnet.solana.com",
+  "mint_address": "mza4W7GqkHw4D3ZvdM9se69YuNhv88AJ5CKU6HM2Dbd",
+  "vault_account": "3WBb7SDrNe4xoJLDuhv5zBNs4QupKTvDLGWpjsUqpSLc",
+  "initial_supply": 1000000,
+  "decimals": 9,
+  "creation_tx": "4ux54B2AXNrwnLpkX5r3XQTt9ckvf1BCXwQNMraFBHA8gBQY3irRrwX6F5gMiAFD9BZaPyTXZ8tqVRcWjm3idvEt",
+  "account_tx": "3h6ULvaNH1u6hJa9icvmDFEiKfwi1TRrQCtNR7KuPEras2UUsPkQQFo4pKZMhwWLCRMSdD7s9Se9QHLhtpeEj2YQ",
+  "mint_tx": "4aGjm5z2zxZFXzutY3KRnpXerviDNBaxc6Z4pDLuZiwYGJFkWSWb6xJFUuQ7e89fPbcZBZkmYxLVb7nyiyTD7YAr",
+  "solana_explorer_mint": "https://explorer.solana.com/address/mza4W7GqkHw4D3ZvdM9se69YuNhv88AJ5CKU6HM2Dbd?cluster=devnet",
+  "timestamp": "2026-10-26 16:54:16 UTC"
+}
